@@ -21,4 +21,4 @@ test_word = str(input())
 test_word = test_word.strip()
 segment = ["1", "2", "3"]
 palindrome(test_word) 
-
+#test
