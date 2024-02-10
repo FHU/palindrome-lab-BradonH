@@ -1,5 +1,7 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def palindrome(word):
+    word = word.replace(' ','')
+    word = word.lower()
     backwards = []
     if len(word) <= 1:
         return False
@@ -18,7 +20,7 @@ def palindrome(word):
 
 #YOUR CODE GOES HERE
 test_word = str(input())
-test_word = test_word.strip()
+#test_word = test_word.strip()
 segment = ["1", "2", "3"]
 palindrome(test_word) 
 #test
